@@ -5,7 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
 
-  if (typeof window !== null) {
+  if (typeof window !== 'undefined' && typeof window.location !== 'undefined') {
       location.href =  siteConfig.baseUrl + 'docs/intro';
   }
 

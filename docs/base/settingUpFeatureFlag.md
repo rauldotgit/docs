@@ -4,31 +4,11 @@ sidebar_position: 4
 
 # Process of setting up the feature flag
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+Feature flags are easier than experiments. Don't need to keep the eye on the statistic by feature flag, but you need to focus on why needed this feature flag and when to enable or disable it.
 
-## Create your first Post
+1. Create feature flag
+2. Disable it
+3. Integrate it into your code (see how to implement feature flags to your code)
+4. Enable it to check it when needed
 
-Create a file at `blog/2021-02-28-greetings.md`:
-
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
+It's done. Your feature flag is working.

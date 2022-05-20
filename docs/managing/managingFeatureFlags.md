@@ -4,31 +4,21 @@ sidebar_position: 2
 
 # Process of setting up the feature flag
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+## Creating feature flag"
+It takes a few moments to create a feature flag via ABRouter UI.
+Feature flag can enable or disable some features in your application with a click.
 
-## Create your first Post
+Login to your account
 
-Create a file at `blog/2021-02-28-greetings.md`:
+Click "Add new feature flag"
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
+Imagine the name of the feature flag
 
-Congratulations, you have made your first post!
+Click "Create". 
 
-Feel free to play around and edit this post as much you like.
-```
+## Enabling/Disabling the feature flag:
 
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
+You can enable and disable the feature flag by the toggle on the dashboard. Changes will be automatically synced with your application.
+
+## Deleting the feature flag
+If you already running the feature flag in the application we highly don't recommend you delete the feature flag. It will not break your application, but can probably affect something. So, be careful and delete your feature flag if you are sure the experiment is not used in your app yet or anymore.

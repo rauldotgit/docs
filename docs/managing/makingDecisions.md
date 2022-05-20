@@ -4,31 +4,13 @@ sidebar_position: 5
 
 # Making decisions
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+The main reason why we should use A/B testing is to optimize our conversions, LTV, and other metrics which will lead your product to grow.
+The test should be running until the exact win for one of the branches.
 
-## Create your first Post
+But, winning by what? To define the winning rules we have to do some more things:
 
-Create a file at `blog/2021-02-28-greetings.md`:
+1. Collect and set up the built-in statistics
+2. Define the key metrics as OKR (Objective Key Results)
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
+So, when already collecting statistics and having the events on the dashboard you have to decide the key(OKRs) metrics for you, depends on you can decide on what branch is winning.
+Don't rush, better to wait for enough collected data from the experiment and then, make the decision, set up the behavior of the winning branch as default in your product remove the experiment from the product codebase.

@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
 
-  location.href =  siteConfig.baseUrl + 'docs/intro';
+  // location.href =  siteConfig.baseUrl + 'docs/intro';
 
   return (
     <Layout

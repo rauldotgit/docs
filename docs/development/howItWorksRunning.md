@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-#  Overall statistics
+#  How it works: Running A/B test on the server
 
 ABRouter SDKs are working pretty easily. They making the HTTP requests to the ABRouter remote server. You need to send the user identifier and branch uid to run the experiment. The response will contain what branch the user got.
 

@@ -6,42 +6,22 @@ sidebar_position: 1
 
 Let's discover **ABRouter**.
 
-## Getting Started
+## About ABRouter
 
-Get started by **creating a new site**.
+ABRouter is a open-source, written on PHP+Laravel, platform to run A/B tests and feature flags on your product. ABRouter has a high level of support of PHP and PHP frameworks: Laravel and Symfony.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+You can [learn more about the supported technologies on the SDK's page](development/sdks) 
 
-### What you'll need
+## ABRouter UI
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Besides, the good clients for PHP, we also have a pretty UI to manage A/B tests and feature flag.
 
-## Generate a new site
+You can start, stop, a/b tests and feature flags there, track the statistics and just enjoy it.
 
-Generate a new Docusaurus site using the **classic template**.
+## Your decision: self-hosted or cloud solution
 
-The classic template will automatically be added to your project after you run the command:
+ABRouter can be easily installed on your server and you can manage and run all A/B tests there.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Getting started
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The first thing you need to do - sign up on the

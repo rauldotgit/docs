@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Managing and creating feature flags
+# User identifiers
 
 In the world of ABRouter statistics exists multiple user identifiers. The temporary user id and user id.
 A temporary user id is an identifier to use when you don't have a real user id like a record from MySQL `users` table. It can be session-id or device id. You can generate it when the user doesn't have the permanent user id. For example, you can put PHP uniqid() to session and use it to send all events within the current session until the exchange for the permanent user id.

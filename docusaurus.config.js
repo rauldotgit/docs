@@ -106,11 +106,11 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/8hYgMAjAFw',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/abrouter',
               },
             ],
           },

@@ -18,10 +18,16 @@ Besides, the good clients for PHP, we also have a pretty UI to manage A/B tests 
 
 You can start, stop, a/b tests and feature flags there, track the statistics and just enjoy it.
 
-## Your decision: self-hosted or cloud solution
+## Using locally or cloud
 
-ABRouter can be easily installed on your server and you can manage and run all A/B tests there.
+We highly recommend you the pros&cons of [using ABRouter locally and as the cloud solution](deploy/proscons).
 
 ## Getting started
 
-The first thing you need to do - sign up on the
+The first thing you need to do - sign up on the [ABRouter](https://abrouter.com/en/signup). Then, you can to [create experiment](managing/managingAbTests) or [feature flag](managing/managingFeatureFlags).
+
+After creating experiment or feature flag, please learn more about the process of releasing it for release managers of team-leads:
+
+[Process of setting up the experiment](base/settingUpExperiment)
+
+[Process of setting up the feature flag](base/settingUpFeatureFlag)

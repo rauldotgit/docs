@@ -10,7 +10,7 @@ Let's discover **ABRouter**.
 
 ABRouter is a open-source, written on PHP+Laravel, platform to run A/B tests and feature flags on your product. ABRouter has a high level of support of PHP and PHP frameworks: Laravel and Symfony.
 
-You can [learn more about the supported technologies on the SDK's page](developer/sdks).
+You can [learn more about the supported technologies on the SDK's page](category/sdks).
 
 ## ABRouter UI
 

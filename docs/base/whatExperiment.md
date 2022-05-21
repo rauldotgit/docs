@@ -8,6 +8,9 @@ A/B testing, also known as split testing, refers to a randomized experimentation
 
 Learn how more about:
 
-Setup experiments in Laravel
-Setup experiments in Symfony
-Setup experiments in vanilla PHP or other frameworks
+[Setup experiments in Laravel](/docs/sdks/laravel)
+
+[Setup experiments in Symfony](/docs/sdks/symfony)
+
+[Setup experiments in vanilla PHP or other frameworks](/docs/sdks/php)
+

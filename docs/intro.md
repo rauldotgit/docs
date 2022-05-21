@@ -2,46 +2,35 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **ABRouter**.
 
-## Getting Started
+## About ABRouter
 
-Get started by **creating a new site**.
+ABRouter is a open-source, written on PHP+Laravel, platform to run A/B tests and feature flags on your product. ABRouter has a high level of support of PHP and PHP frameworks: Laravel and Symfony.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+You can [learn more about the supported technologies on the SDK's page](developer/sdks).
 
-### What you'll need
+## ABRouter UI
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Besides, the good clients for PHP, we also have a pretty UI to manage A/B tests and feature flag.
 
-## Generate a new site
+You can start, stop, a/b tests and feature flags there, track the statistics and just enjoy it.
 
-Generate a new Docusaurus site using the **classic template**.
+## Using locally or cloud
 
-The classic template will automatically be added to your project after you run the command:
+We highly recommend you the pros&cons of [using ABRouter locally and as the cloud solution](deploy/proscons) before deploying it.
+[Learn more about how to deploy ABRouter](docs/deploy).
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Getting started
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+The first thing you need to do - sign up on the [ABRouter](https://abrouter.com/en/signup). Then, you can to [create experiment](managing/managingAbTests) or [feature flag](managing/managingFeatureFlags).
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+After creating experiment or feature flag, please learn more about the process of releasing it for release managers or team-leads:
 
-## Start your site
+[Process of setting up the experiment](base/settingUpExperiment)
 
-Run the development server:
+[Process of setting up the feature flag](base/settingUpFeatureFlag)
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+We hope it will explain a lot. Additionally, we are recommending to read the [cautions for developers](category/developer-cautions).

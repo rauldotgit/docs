@@ -14,3 +14,5 @@ But, winning by what? To define the winning rules we have to do some more things
 
 So, when already collecting statistics and having the events on the dashboard you have to decide the key(OKRs) metrics for you, depends on you can decide on what branch is winning.
 Don't rush, better to wait for enough collected data from the experiment and then, make the decision, set up the behavior of the winning branch as default in your product remove the experiment from the product codebase.
+
+[Check out how to track your A/B tests with important notes](trackingAbTests)

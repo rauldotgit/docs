@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Process of setting up the feature flag
 
-Feature flags are easier than experiments. Don't need to keep the eye on the statistic by feature flag, but you need to focus on why needed this feature flag and when to enable or disable it.
+Feature flags are easier to manage than experiments. Instead of tracking their stats constantly, just determine whether they are needed and when to switch them on or off.
 
 1. Create feature flag
 2. Disable it
